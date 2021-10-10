@@ -1,0 +1,302 @@
+2020-07-29 11:02:29,946 T19688 INFO flask running & logger module start ...
+2020-07-29 11:02:31,725 T23992 INFO flask running & logger module start ...
+2020-07-29 11:03:04,194 T24068 INFO 下载检测报告
+2020-07-29 11:03:04,198 T24068 INFO 访问paperyy获取检测报告
+2020-07-29 11:03:04,341 T24068 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 11:03:05,589 T24068 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\images/wrapper_topbg.jpg
+2020-07-29 11:03:05,590 T24068 INFO 下载检测报告异常:[WinError 3] 系统找不到指定的路径。: 'D:\\Work\\12_Workspace_Python\\paperyy\\paper\\report\\images/wrapper_topbg.jpg'
+2020-07-29 11:03:34,255 T22936 INFO flask running & logger module start ...
+2020-07-29 11:03:58,748 T20164 INFO 下载检测报告
+2020-07-29 11:03:58,752 T20164 INFO 访问paperyy获取检测报告
+2020-07-29 11:03:58,851 T20164 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 11:04:00,198 T20164 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\images\wrapper_topbg.jpg
+2020-07-29 11:04:00,198 T20164 INFO 下载检测报告异常:[WinError 3] 系统找不到指定的路径。: 'D:\\Work\\12_Workspace_Python\\paperyy\\paper\\report\\images\\wrapper_topbg.jpg'
+2020-07-29 11:05:16,178 T19336 INFO flask running & logger module start ...
+2020-07-29 11:05:32,530 T2308 INFO flask running & logger module start ...
+2020-07-29 11:07:48,643 T20104 INFO 下载检测报告
+2020-07-29 11:07:48,650 T20104 INFO 访问paperyy获取检测报告
+2020-07-29 11:07:48,720 T20104 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 11:07:49,702 T20104 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 11:07:49,704 T20104 INFO 下载检测报告异常:[WinError 267] 目录名称无效。: 'D:\\Work\\12_Workspace_Python\\paperyy\\paper\\report\\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\\images\\wrapper_topbg.jpg'
+2020-07-29 11:11:31,348 T18628 INFO flask running & logger module start ...
+2020-07-29 11:11:57,340 T6404 INFO 下载检测报告
+2020-07-29 11:11:57,342 T6404 INFO 访问paperyy获取检测报告
+2020-07-29 11:11:57,454 T6404 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 11:11:58,714 T6404 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images
+2020-07-29 11:11:58,747 T6404 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images
+2020-07-29 11:11:58,747 T6404 INFO 下载检测报告异常:[WinError 3] 系统找不到指定的路径。: 'D:\\Work\\12_Workspace_Python\\paperyy\\paper\\report\\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\\images'
+2020-07-29 11:19:15,209 T9516 INFO flask running & logger module start ...
+2020-07-29 11:19:15,424 T9516 INFO 目录[D:\Work\12_Workspace_Python\paperyy\paper\backupRpt]不存在，正在创建新目录
+2020-07-29 11:19:15,801 T21180 INFO flask running & logger module start ...
+2020-07-29 11:19:30,543 T1644 INFO 下载检测报告
+2020-07-29 11:19:30,544 T1644 INFO 访问paperyy获取检测报告
+2020-07-29 11:19:30,661 T1644 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 11:19:31,542 T1644 INFO D:\Work\12_Workspace_Python\paperyy\apps\views\..\..\etc
+2020-07-29 11:19:31,543 T1644 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215
+2020-07-29 11:29:58,936 T16244 INFO flask running & logger module start ...
+2020-07-29 11:30:27,410 T22912 INFO 下载检测报告
+2020-07-29 11:30:27,410 T22912 INFO 访问paperyy获取检测报告
+2020-07-29 11:30:27,560 T22912 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 11:30:28,591 T22912 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 11:30:28,594 T22912 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 11:30:28,595 T22912 INFO D:\Work\12_Workspace_Python\paperyy\etc\logo_0.png
+2020-07-29 11:30:28,595 T22912 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images
+2020-07-29 11:31:19,191 T21016 INFO flask running & logger module start ...
+2020-07-29 11:32:09,631 T9288 INFO flask running & logger module start ...
+2020-07-29 11:32:14,529 T824 INFO 下载检测报告
+2020-07-29 11:32:14,531 T824 INFO 访问paperyy获取检测报告
+2020-07-29 11:32:14,694 T824 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 11:32:16,197 T824 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 11:32:16,198 T824 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 11:32:16,202 T824 INFO D:\Work\12_Workspace_Python\paperyy\etc\logo_0.png
+2020-07-29 11:32:16,203 T824 INFO D:\
+2020-07-29 11:32:49,156 T21604 INFO flask running & logger module start ...
+2020-07-29 11:33:08,644 T13304 INFO 下载检测报告
+2020-07-29 11:33:08,645 T13304 INFO 访问paperyy获取检测报告
+2020-07-29 11:33:08,907 T13304 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 11:33:11,671 T13304 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 11:33:11,671 T13304 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 11:33:11,672 T13304 INFO D:\Work\12_Workspace_Python\paperyy\etc\logo_0.png
+2020-07-29 11:33:11,673 T13304 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images
+2020-07-29 14:07:28,169 T17832 INFO flask running & logger module start ...
+2020-07-29 14:07:30,010 T17444 INFO flask running & logger module start ...
+2020-07-29 14:07:31,420 T10504 INFO 下载检测报告
+2020-07-29 14:07:31,426 T10504 INFO 访问paperyy获取检测报告
+2020-07-29 14:07:31,589 T10504 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 14:07:33,909 T10504 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 14:07:33,909 T10504 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 14:07:33,910 T10504 INFO D:\Work\12_Workspace_Python\paperyy\etc\logo_0.png
+2020-07-29 14:07:33,910 T10504 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images
+2020-07-29 14:07:33,912 T10504 INFO D:\Work\12_Workspace_Python\paperyy\bin\css
+2020-07-29 14:07:33,912 T10504 INFO D:\Work\12_Workspace_Python\paperyy\bin\images
+2020-07-29 14:07:33,913 T10504 INFO D:\Work\12_Workspace_Python\paperyy\bin\js
+2020-07-29 14:07:33,913 T10504 INFO D:\Work\12_Workspace_Python\paperyy\bin\全文对照报告.html
+2020-07-29 14:07:33,914 T10504 INFO D:\Work\12_Workspace_Python\paperyy\bin\全文标明引文报告.html
+2020-07-29 14:07:33,914 T10504 INFO D:\Work\12_Workspace_Python\paperyy\bin\去除本人已发表文献报告.html
+2020-07-29 14:07:33,915 T10504 INFO D:\Work\12_Workspace_Python\paperyy\bin\标色辅助修改.docx
+2020-07-29 14:07:33,915 T10504 INFO D:\Work\12_Workspace_Python\paperyy\bin\简洁报告.html
+2020-07-29 14:10:48,460 T11700 INFO flask running & logger module start ...
+2020-07-29 14:10:49,077 T2100 INFO flask running & logger module start ...
+2020-07-29 14:11:17,009 T22768 INFO 下载检测报告
+2020-07-29 14:11:17,010 T22768 INFO 访问paperyy获取检测报告
+2020-07-29 14:11:17,078 T22768 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 14:11:18,221 T22768 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 14:11:18,223 T22768 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 14:11:18,227 T22768 INFO 下载检测报告异常:[Errno 2] No such file or directory: 'D:\\Work\\12_Workspace_Python\\paperyy\\bin\\全文对照报告.html'
+2020-07-29 14:12:13,084 T18984 INFO flask running & logger module start ...
+2020-07-29 14:12:23,327 T12956 INFO 下载检测报告
+2020-07-29 14:12:23,330 T12956 INFO 访问paperyy获取检测报告
+2020-07-29 14:12:23,409 T12956 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 14:12:24,203 T12956 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 14:12:24,204 T12956 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 14:12:24,208 T12956 INFO D:\Work\12_Workspace_Python\paperyy\bin\css
+2020-07-29 14:12:24,208 T12956 INFO D:\Work\12_Workspace_Python\paperyy\bin\images
+2020-07-29 14:12:24,209 T12956 INFO D:\Work\12_Workspace_Python\paperyy\bin\js
+2020-07-29 14:12:24,210 T12956 INFO D:\Work\12_Workspace_Python\paperyy\bin\全文对照报告.html
+2020-07-29 14:12:24,210 T12956 INFO 下载检测报告异常:[Errno 2] No such file or directory: 'D:\\Work\\12_Workspace_Python\\paperyy\\bin\\全文对照报告.html'
+2020-07-29 14:13:39,162 T16020 INFO flask running & logger module start ...
+2020-07-29 14:13:55,330 T5192 INFO 下载检测报告
+2020-07-29 14:13:55,331 T5192 INFO 访问paperyy获取检测报告
+2020-07-29 14:13:55,443 T5192 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 14:13:56,477 T5192 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 14:13:56,479 T5192 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 14:13:56,485 T5192 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\css
+2020-07-29 14:13:56,486 T5192 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images
+2020-07-29 14:13:56,486 T5192 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\js
+2020-07-29 14:13:56,486 T5192 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\全文对照报告.html
+2020-07-29 14:13:56,499 T5192 INFO 下载检测报告异常:a bytes-like object is required, not 'str'
+2020-07-29 14:14:14,639 T20108 INFO flask running & logger module start ...
+2020-07-29 14:22:06,356 T21112 INFO flask running & logger module start ...
+2020-07-29 14:23:28,713 T18820 INFO 下载检测报告
+2020-07-29 14:23:28,716 T18820 INFO 访问paperyy获取检测报告
+2020-07-29 14:23:28,831 T18820 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 14:23:29,711 T18820 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 14:23:29,713 T18820 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 14:23:29,718 T18820 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\css
+2020-07-29 14:23:29,718 T18820 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images
+2020-07-29 14:23:29,719 T18820 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\js
+2020-07-29 14:23:29,720 T18820 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\全文对照报告.html
+2020-07-29 14:23:29,738 T18820 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\全文标明引文报告.html
+2020-07-29 14:23:29,750 T18820 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\去除本人已发表文献报告.html
+2020-07-29 14:23:29,763 T18820 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\标色辅助修改.docx
+2020-07-29 14:23:29,763 T18820 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\简洁报告.html
+2020-07-29 14:28:12,551 T17592 INFO flask running & logger module start ...
+2020-07-29 14:28:13,166 T6528 INFO flask running & logger module start ...
+2020-07-29 14:28:22,609 T18156 INFO 下载检测报告
+2020-07-29 14:28:22,614 T18156 INFO 访问paperyy获取检测报告
+2020-07-29 14:28:22,735 T18156 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 14:28:23,842 T18156 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 14:28:23,844 T18156 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 14:28:23,851 T18156 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\css
+2020-07-29 14:28:23,852 T18156 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\\js
+2020-07-29 14:28:23,857 T18156 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images
+2020-07-29 14:28:23,858 T18156 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\\js
+2020-07-29 14:28:23,859 T18156 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\js
+2020-07-29 14:28:23,860 T18156 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\\js
+2020-07-29 14:28:23,862 T18156 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\全文对照报告.html
+2020-07-29 14:28:23,863 T18156 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\\js
+2020-07-29 14:28:23,891 T18156 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\全文标明引文报告.html
+2020-07-29 14:28:23,892 T18156 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\\js
+2020-07-29 14:28:23,908 T18156 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\去除本人已发表文献报告.html
+2020-07-29 14:28:23,908 T18156 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\\js
+2020-07-29 14:28:23,920 T18156 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\标色辅助修改.docx
+2020-07-29 14:28:23,920 T18156 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\\js
+2020-07-29 14:28:23,920 T18156 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\简洁报告.html
+2020-07-29 14:28:23,920 T18156 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\\js
+2020-07-29 14:28:23,936 T18156 INFO 下载检测报告异常:name 'pwd' is not defined
+2020-07-29 14:32:12,135 T14556 INFO flask running & logger module start ...
+2020-07-29 14:32:36,030 T16260 INFO flask running & logger module start ...
+2020-07-29 14:32:46,915 T12728 INFO 下载检测报告
+2020-07-29 14:32:46,917 T12728 INFO 访问paperyy获取检测报告
+2020-07-29 14:32:46,986 T12728 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 14:32:47,975 T12728 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 14:32:47,975 T12728 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 14:32:47,980 T12728 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\css
+2020-07-29 14:32:47,980 T12728 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images
+2020-07-29 14:32:47,981 T12728 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\js
+2020-07-29 14:32:47,981 T12728 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\全文对照报告.html
+2020-07-29 14:32:47,981 T12728 INFO 下载检测报告异常:[Errno 2] No such file or directory: 'D:\\Work\\12_Workspace_Python\\paperyy\\paper\\report\\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\\全文对照报告.html'
+2020-07-29 14:33:30,078 T7576 INFO flask running & logger module start ...
+2020-07-29 14:33:43,501 T19688 INFO 下载检测报告
+2020-07-29 14:33:43,502 T19688 INFO 访问paperyy获取检测报告
+2020-07-29 14:33:43,621 T19688 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 14:33:44,428 T19688 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 14:33:44,430 T19688 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 14:33:44,443 T19688 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\css
+2020-07-29 14:33:44,443 T19688 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images
+2020-07-29 14:33:44,444 T19688 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\js
+2020-07-29 14:33:44,445 T19688 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\全文对照报告.html
+2020-07-29 14:33:44,473 T19688 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\全文标明引文报告.html
+2020-07-29 14:33:44,490 T19688 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\去除本人已发表文献报告.html
+2020-07-29 14:33:44,503 T19688 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\标色辅助修改.docx
+2020-07-29 14:33:44,504 T19688 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\简洁报告.html
+2020-07-29 14:34:09,817 T18100 INFO flask running & logger module start ...
+2020-07-29 14:35:39,514 T23876 INFO flask running & logger module start ...
+2020-07-29 14:36:17,704 T10656 INFO flask running & logger module start ...
+2020-07-29 14:36:47,531 T20360 INFO flask running & logger module start ...
+2020-07-29 14:37:02,340 T18128 INFO 下载检测报告
+2020-07-29 14:37:02,341 T18128 INFO 访问paperyy获取检测报告
+2020-07-29 14:37:02,443 T18128 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 14:37:03,543 T18128 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 14:37:03,543 T18128 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 14:38:49,774 T11068 INFO flask running & logger module start ...
+2020-07-29 14:53:55,801 T14420 INFO flask running & logger module start ...
+2020-07-29 14:54:04,986 T4500 INFO flask running & logger module start ...
+2020-07-29 14:55:31,288 T7628 INFO flask running & logger module start ...
+2020-07-29 14:55:33,708 T23356 INFO 下载检测报告
+2020-07-29 14:55:33,709 T23356 INFO 访问paperyy获取检测报告
+2020-07-29 14:55:33,825 T23356 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 14:55:34,678 T23356 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 14:55:34,683 T23356 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 14:56:22,505 T18384 INFO flask running & logger module start ...
+2020-07-29 14:56:44,584 T21776 INFO 下载检测报告
+2020-07-29 14:56:44,589 T21776 INFO 访问paperyy获取检测报告
+2020-07-29 14:56:44,699 T21776 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 14:56:46,549 T21776 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 14:56:46,550 T21776 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 14:56:46,610 T21776 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\.zip
+2020-07-29 14:58:30,219 T1372 INFO flask running & logger module start ...
+2020-07-29 14:59:24,747 T22556 INFO flask running & logger module start ...
+2020-07-29 14:59:40,451 T11068 INFO 下载检测报告
+2020-07-29 14:59:40,453 T11068 INFO 访问paperyy获取检测报告
+2020-07-29 14:59:40,546 T11068 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 14:59:41,787 T11068 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 14:59:41,788 T11068 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 14:59:41,847 T11068 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215.zip
+2020-07-29 15:01:01,211 T10656 INFO flask running & logger module start ...
+2020-07-29 15:01:52,509 T24212 INFO flask running & logger module start ...
+2020-07-29 15:02:01,896 T21556 INFO flask running & logger module start ...
+2020-07-29 15:02:53,329 T2212 INFO flask running & logger module start ...
+2020-07-29 15:02:53,966 T21876 INFO flask running & logger module start ...
+2020-07-29 15:03:07,364 T21728 INFO 下载检测报告
+2020-07-29 15:03:07,370 T21728 INFO 访问paperyy获取检测报告
+2020-07-29 15:03:07,472 T21728 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 15:03:08,410 T21728 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 15:03:08,411 T21728 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 15:08:17,967 T24048 INFO flask running & logger module start ...
+2020-07-29 15:08:43,745 T22992 INFO flask running & logger module start ...
+2020-07-29 15:09:12,592 T23168 INFO flask running & logger module start ...
+2020-07-29 15:09:34,776 T12312 INFO 下载检测报告
+2020-07-29 15:09:34,778 T12312 INFO 访问paperyy获取检测报告
+2020-07-29 15:09:34,860 T12312 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 15:09:37,545 T12312 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 15:09:37,546 T12312 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 15:10:47,815 T7068 INFO flask running & logger module start ...
+2020-07-29 15:10:59,211 T13764 INFO 下载检测报告
+2020-07-29 15:10:59,215 T13764 INFO 访问paperyy获取检测报告
+2020-07-29 15:10:59,300 T13764 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 15:11:00,449 T13764 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 15:11:00,450 T13764 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 15:11:50,567 T22636 INFO flask running & logger module start ...
+2020-07-29 15:12:02,531 T10588 INFO 下载检测报告
+2020-07-29 15:12:02,531 T10588 INFO 访问paperyy获取检测报告
+2020-07-29 15:12:02,603 T10588 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 15:12:03,689 T10588 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 15:12:03,689 T10588 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 15:12:03,733 T10588 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215
+2020-07-29 15:12:40,497 T11540 INFO flask running & logger module start ...
+2020-07-29 15:12:57,692 T22840 INFO 下载检测报告
+2020-07-29 15:12:57,693 T22840 INFO 访问paperyy获取检测报告
+2020-07-29 15:12:57,773 T22840 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 15:12:58,686 T22840 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 15:12:58,688 T22840 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 15:12:58,761 T22840 INFO D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215
+2020-07-29 15:12:58,762 T22840 INFO css
+2020-07-29 15:12:58,763 T22840 INFO images
+2020-07-29 15:12:58,763 T22840 INFO js
+2020-07-29 15:12:58,764 T22840 INFO 全文对照报告.html
+2020-07-29 15:12:58,765 T22840 INFO 全文标明引文报告.html
+2020-07-29 15:12:58,766 T22840 INFO 去除本人已发表文献报告.html
+2020-07-29 15:12:58,766 T22840 INFO 标色辅助修改.docx
+2020-07-29 15:12:58,767 T22840 INFO 简洁报告.html
+2020-07-29 15:14:30,711 T18628 INFO flask running & logger module start ...
+2020-07-29 15:14:44,911 T24528 INFO 下载检测报告
+2020-07-29 15:14:44,912 T24528 INFO 访问paperyy获取检测报告
+2020-07-29 15:14:45,014 T24528 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 15:14:45,861 T24528 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 15:14:45,866 T24528 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 15:15:49,447 T12348 INFO flask running & logger module start ...
+2020-07-29 15:16:15,708 T18124 INFO 下载检测报告
+2020-07-29 15:16:15,708 T18124 INFO 访问paperyy获取检测报告
+2020-07-29 15:16:15,812 T18124 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 15:16:16,638 T18124 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 15:16:16,638 T18124 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 15:16:16,693 T18124 INFO 下载检测报告异常:[WinError 3] 系统找不到指定的路径。: 'D:\\Work\\12_Workspace_Python\\paperyy\\paper\\report\\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\\css\\index.css\\index.css'
+2020-07-29 15:17:05,747 T23076 INFO flask running & logger module start ...
+2020-07-29 15:20:12,278 T13720 INFO flask running & logger module start ...
+2020-07-29 15:20:12,891 T18820 INFO flask running & logger module start ...
+2020-07-29 15:20:22,913 T21884 INFO 下载检测报告
+2020-07-29 15:20:22,923 T21884 INFO 访问paperyy获取检测报告
+2020-07-29 15:20:23,018 T21884 INFO http://oemreport.paperyy.com/20200727/oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215/report.zip
+2020-07-29 15:20:23,755 T21884 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\wrapper_topbg.jpg
+2020-07-29 15:20:23,756 T21884 INFO 正在删除文件：D:\Work\12_Workspace_Python\paperyy\paper\report\oem-f40a9aec-8165-4a8a-aa43-fbf6b832c215\images\topbg.jpg
+2020-07-29 16:38:12,230 T16652 INFO flask running & logger module start ...
+2020-07-29 16:38:12,231 T16652 INFO 定时任务启动，查询账户余额
+2020-07-29 16:38:12,331 T16652 INFO 查询账户余额异常，任务退出：the JSON object must be str, bytes or bytearray, not Response
+2020-07-29 16:39:43,096 T7824 INFO flask running & logger module start ...
+2020-07-29 16:39:43,097 T7824 INFO 定时任务启动，查询账户余额
+2020-07-29 16:39:43,210 T7824 INFO 查询账户余额异常，任务退出：invalid literal for int() with base 10: '16.0'
+2020-07-29 16:40:09,927 T4148 INFO flask running & logger module start ...
+2020-07-29 16:40:09,927 T4148 INFO 定时任务启动，查询账户余额
+2020-07-29 16:40:38,958 T5744 INFO flask running & logger module start ...
+2020-07-29 16:40:38,959 T5744 INFO 定时任务启动，查询账户余额
+2020-07-29 16:40:39,038 T5744 INFO 查询账户余额异常，任务退出：'DevelopmentConfig' object has no attribute 'SHOWAPI_APPSECRET'
+2020-07-29 16:41:17,762 T23412 INFO flask running & logger module start ...
+2020-07-29 16:41:17,763 T23412 INFO 定时任务启动，查询账户余额
+2020-07-29 16:41:17,855 T23412 INFO 账户余额不足100元，发送短信提醒
+2020-07-29 16:41:18,038 T23412 INFO {'showapi_res_error': '', 'showapi_res_id': '5f21362e8d57bac8235b3f90', 'showapi_res_code': 0, 'showapi_res_body': {'ret_code': '104', 'remark': '未找到模板编号tNum为[T170317006214]的短信模板,请核实模板编号是否正确或模板是否已审核!', 'showapi_fee_code': 104}}
+2020-07-29 16:41:18,038 T23412 INFO 本次任务执行完成
+2020-07-29 16:41:33,126 T6992 INFO flask running & logger module start ...
+2020-07-29 16:41:35,603 T21824 INFO flask running & logger module start ...
+2020-07-29 16:44:29,239 T11776 INFO flask running & logger module start ...
+2020-07-29 16:44:29,925 T22132 INFO flask running & logger module start ...
+2020-07-29 16:46:39,598 T24064 INFO flask running & logger module start ...
+2020-07-29 16:46:40,301 T14128 INFO flask running & logger module start ...
+2020-07-29 16:50:43,501 T5744 INFO flask running & logger module start ...
+2020-07-29 16:50:59,026 T14640 INFO flask running & logger module start ...
+2020-07-29 16:53:58,232 T17504 INFO flask running & logger module start ...
+2020-07-29 16:53:58,929 T19460 INFO flask running & logger module start ...
+2020-07-29 16:58:58,547 T18984 INFO 定时任务启动，查询账户余额
+2020-07-29 17:03:58,546 T18984 INFO 定时任务启动，查询账户余额
+2020-07-29 17:08:58,544 T21104 INFO 定时任务启动，查询账户余额
+2020-07-29 17:13:58,544 T18984 INFO 定时任务启动，查询账户余额

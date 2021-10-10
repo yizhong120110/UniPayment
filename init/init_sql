@@ -1,0 +1,95 @@
+
+---序列
+CREATE TABLE `uniplat`.`tbl_sequence`  (
+  `sequence_name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '序列名称',
+  `value` bigint(20) NOT NULL DEFAULT 0 COMMENT '当前值',
+  PRIMARY KEY (`sequence_name`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+
+
+CREATE TABLE `uniplat`.`uniplat_ability_bind`  (
+  `token` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '主键，UUID',
+  `relative_id` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '所属能力ID，同uniplat_ability_conf表的id字段',
+  `user_id` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '用户ID',
+  `site` varchar(300) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '第三方网站名称',
+  `verified` varchar(1) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '是否审核    \r\n0：未通过审核    \r\n1：已通过审核    ',
+  `create_time` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '申请日期时间    YYYYMMDD HH:mm:ss',
+  `update_time` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '数据更新时间',
+  `remark` varchar(300) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '申请备注',
+  PRIMARY KEY (`token`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = DYNAMIC;
+
+
+
+CREATE TABLE `uniplat`.`uniplat_ability_conf`  (
+  `id` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL DEFAULT '' COMMENT '主键，UUID',
+  `ability_type` varchar(2) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '能力类型    \r\n00：支付宝扫码付    \r\n01：微信扫码付    \r\n02：微信公众号支付    \r\n03：微信小程序支付    \r\n04：发送短信',
+  `account` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '支付宝账号或者微信号',
+  `nickname` varchar(300) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '支付宝或微信的昵称',
+  `app_id` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '支付宝：支付宝分配给开发者的应用ID    \r\n微信：微信支付分配的公众账号ID    \r\n该字段在表中具有唯一性',
+  `app_name` varchar(300) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '应用名称',
+  `mch_id` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '卖家支付宝用户ID    \r\n微信支付分配的商户号    ',
+  `api_key` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '万维易源平台调用者签名；微信支付的API密钥；支付宝暂未用到该参数',
+  `key_cert_path` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '秘钥、证书文件地址',
+  `remark` varchar(300) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '能力介绍',
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = DYNAMIC;
+
+
+CREATE TABLE `uniplat`.`uniplat_sms`  (
+  `chnl_seq_no` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '业务流水号',
+  `taskid` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+  `phone` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '手机号码',
+  `content` varchar(900) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '短信内容',
+  `template` varchar(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '模板编号',
+  `send_time` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '发送时间',
+  `status` varchar(2) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '发送状态    \r\n0：发送失败   \r\n1：发送成功',
+  `remark` varchar(300) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '备注',
+  PRIMARY KEY (`chnl_seq_no`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+
+
+CREATE TABLE `uniplat`.`uniplat_sms_template`  (
+  `id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `user_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '申请人id',
+  `title` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '标题内容',
+  `template` varchar(900) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '模板内容',
+  `template_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '模板ID，审核通过后由管理员更新',
+  `phone` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '联系电话',
+  `verified` varchar(1) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '审核状态：    \r\n0：已审核\r\n1：未审核',
+  `create_time` varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '创建时间',
+  `update_time` varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '更新时间',
+  `relative_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '所属应应用ID',
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+
+
+
+CREATE TABLE `uniplat`.`uniplat_trans`  (
+  `chnl_seq_no` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '主键，UUID',
+  `chnl_date` varchar(8) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '交易日期',
+  `chnl_time` varchar(6) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '交易时间',
+  `token` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '站点token',
+  `trans_type` varchar(2) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '交易类型    \r\n00：支付宝扫码收款    \r\n01：微信扫码收款    \r\n02：微信公众号收款    \r\n03：微信小程序收款    \r\n10：转账结算    ',
+  `account` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '支付宝账号或者微信号',
+  `other_id` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '第三方支付宝或微信商户ID',
+  `other_acct` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '第三方支付宝账号或微信号',
+  `trade_no` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '支付平台凭证号',
+  `total_pay` decimal(16, 2) NULL DEFAULT NULL COMMENT '交易金额，单位：元',
+  `subject` varchar(300) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '订单标题',
+  `status` varchar(2) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '交易状态   \r\n00：预登记    \r\n01：支付成功    \r\n02：支付失败     \r\n99：已退回',
+  `remark` varchar(300) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '备注',
+  `upd_time` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '数据更新时间',
+  PRIMARY KEY (`chnl_seq_no`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = DYNAMIC;
+
+
+----创建函数，函数使用的表名，大小写敏感
+首先执行：set global log_bin_trust_function_creators = 1;
+然后再创建函数
+CREATE DEFINER=`uniplat`@`%` FUNCTION `NEXT_VAL`(`sequence_name` VARCHAR(64)) RETURNS bigint(20)
+BEGIN
+    UPDATE TBL_SEQUENCE t, (SELECT @current_val:=`value` FROM TBL_SEQUENCE t2 WHERE t2.sequence_name=sequence_name) t3 SET t.value = t.value + 1 WHERE t.sequence_name =sequence_name AND @current_val=t.value;
+    RETURN @current_val+1;
+END
+

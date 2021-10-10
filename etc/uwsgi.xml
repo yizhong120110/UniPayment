@@ -1,0 +1,15 @@
+<uwsgi>
+    <!--<socket>127.0.0.1:5642</socket>-->
+    <http>127.0.0.1:8090</http>
+    <file>/home/uniplat/src/UniPayment/bin/manage.py</file>
+    <callable>app</callable>
+    <processes>8</processes> 
+    <master/>
+    <memory/>
+    <daemonize>/home/uniplat/log/uwsgi.log</daemonize>
+    <touch-logreopen>/home/uniplat/log/.touchforlogrotate</touch-logreopen>
+    <max-requests>10000</max-requests>
+    <!--允许在app程序里启用子线程-->
+    <enable-threads>true</enable-threads>
+    <buffer-size>32768</buffer-size>
+</uwsgi>
